@@ -39,16 +39,17 @@ a {
 
 footer {
   width: 97%;
-  margin:auto;
+  margin: auto;
   border-top: 1px solid #d9d9d9;
   padding-top: 6px;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 15px;
   color: #343a40;  
 }
 footer .fas, footer .fab {
+  margin: auto;
   color: #aaa;
-  padding: 12px 12px;
+  padding: 4px 4px;
 }
 
 .footer a {
@@ -58,22 +59,32 @@ footer .fas, footer .fab {
 footer .fas:hover , footer .fab:hover  {
  color:#007bff
 }
+
 .footercountry {
-  margin: 10px auto;
+  border-top: 1 px solid red;
+  margin: 5px;
   z-index: 5;
 }
 
 .footercountry a {
-  margin: auto;
+  margin-right: 5px;
+  text-align: start;
   text-decoration: none;
-  padding: 0 10px;
+  padding: -5px 10px;
   font-family: Arial,Helvetica,sans-serif;
-  font-size: 15px;
+  font-size: 11px;
   background-color: #f4f5f6;
   color: #333;
 }
 
 .copyright {
-  padding-top: 27px;
-  margin-left: 14px;
+  margin-top: 0;
+  margin-left: 1px;
 }
+
+.text-red {
+  padding-bottom: 0;
+  color: red;
+  font-weight: bold;
+}
+
