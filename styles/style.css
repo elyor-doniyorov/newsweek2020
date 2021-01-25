@@ -87,4 +87,16 @@ footer .fas:hover , footer .fab:hover  {
   color: red;
   font-weight: bold;
 }
+.mainbody {
+  color: black;
+  text-decoration: none;
+}
 
+/*  Media query */
+
+@media (min-width: 768px) { 
+  .mainbody {
+    background-color: white;
+  }
+
+ }
