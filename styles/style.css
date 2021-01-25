@@ -1,25 +1,43 @@
 
-.container-fluid{
+.container-fluid {
   max-width: 1310px;
   margin-left: auto;
   margin-right: auto;
 }
 .nav-sticky {
+  background-color: red;
   width: 100%;
-  margin-left: 20px;
-  max-width: 1250px;
+  max-width: 1270px;
   position: fixed;
   top: 0;
   z-index: 5;
 }
 .not-sticky {
+  width: 1200px;
   position: relative;
   z-index: 9;
 }
 
+.nav-color {
+  color: #f4f5f6;
+}
+
+.mynav2 a {
+  color: black;
+}
+
 .navbar,
 .red {
+  margin-left: -15px;
+  width: 1270px;
   background-color: red;
+}
+
+.nav-b {
+  margin-top: 3px;
+  width: 110px;
+  height: 40px;
+  font-weight: bolder;
 }
 
 .navbar > div > button {
@@ -33,6 +51,29 @@ a {
   color: inherit;
 }
 
+.nav-bottom {
+  /* background-color: white; */
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav-bottom span {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.nav-bottom a {
+  text-decoration: none;
+  color: #aaa;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.nav-bottom a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 footer {
   width: 97%;
   margin: auto;
@@ -40,9 +81,10 @@ footer {
   padding-top: 6px;
   font-size: 11px;
   line-height: 15px;
-  color: #343a40;  
+  color: #343a40;
 }
-footer .fas, footer .fab {
+footer .fas,
+footer .fab {
   margin: auto;
   color: #aaa;
   padding: 4px 4px;
@@ -52,8 +94,9 @@ footer .fas, footer .fab {
   text-decoration: none;
 }
 
-footer .fas:hover , footer .fab:hover  {
- color:#007bff
+footer .fas:hover,
+footer .fab:hover {
+  color: #007bff;
 }
 
 .footercountry {
@@ -67,7 +110,7 @@ footer .fas:hover , footer .fab:hover  {
   text-align: start;
   text-decoration: none;
   padding: -5px 10px;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   background-color: #f4f5f6;
   color: #333;
@@ -83,9 +126,23 @@ footer .fas:hover , footer .fab:hover  {
   color: red;
   font-weight: bold;
 }
+.mainbody {
+  color: black;
+  text-decoration: none;
+}
 
+<<<<<<< HEAD
 @media (max-width: 992px) {
   .not-sticky {
     display: none;
   }
 }
+=======
+/*  Media query */
+
+@media (min-width: 768px) {
+  .mainbody {
+    background-color: white;
+  }
+}
+>>>>>>> 20f8bacfd14ad9673824365ef8ffc5b2d5815eb1
