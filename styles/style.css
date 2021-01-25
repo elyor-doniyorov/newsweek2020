@@ -1,4 +1,22 @@
 
+.container-fluid{
+  max-width: 1310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-sticky {
+  width: 100%;
+  margin-left: 20px;
+  max-width: 1250px;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+.not-sticky {
+  position: relative;
+  z-index: 9;
+}
+
 .navbar,
 .red {
   background-color: red;
@@ -66,3 +84,8 @@ footer .fas:hover , footer .fab:hover  {
   font-weight: bold;
 }
 
+@media (max-width: 992px) {
+  .not-sticky {
+    display: none;
+  }
+}
