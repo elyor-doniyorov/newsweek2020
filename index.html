@@ -15,16 +15,22 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top d-lg-flex">
+
+    <div class="container">
+    <nav class="navbar navbar-fixed-top d-lg-flex">
         <span class="d-none d-lg-block text-white text-monospace lead">Wed, Jan 20, 2021</span>
-        <img class="navbar-brand w-25" src="assets/logo1.png" alt="logo ">
+        <img class="navbar-brand w-25" src="assets/logo.png" alt="logo ">
         <div class="d-flex align-items-center justify-content-between"> 
             <i class="fas fa-portrait text-white d-md-none mr-3"></i>
             <a href="#" class="text-white font-weight-bold lead text-monospaced d-none d-md-block mr-3">LOGIN</a>
-            <button class="btn bg-warning btn-sm " type="button">SUBSCRIBE></button>
-            <span class="fas fa-bars text-white d-lg-none"></span>             
+            
+            <button class="btn bg-warning mr-3" type="button">SUBSCRIBE></button>
+            
+            <span class="fas fa-bars text-white d-lg-none"></span>           
         </div>
     </nav>
+</div>
+
     <nav class="navbar bg-light d-none d-lg-flex text-black font-weight-bold mynav2">
             <a href="#">U.S.</a>
             <a href="#">World</a>
@@ -56,20 +62,21 @@
     </nav>
 
     <footer class="footerbb">
-        <div class="d-flex flex-row justify-content-between footer">
-            <div class="d-flex flex-row">
-                <h1>NewsWeek</h1>
+        <div class="d-flex flex-row justify-content-between footer d-sm flex-column">
+            <div class="d-flex flex-row d-sm d-flex flex-column">
+                <h1 class="text-red">NewsWeek</h1>
                 <p class="copyright">© 2021 NEWSWEEK DIGITAL LLC</p>
             </div>
 
-
-            <div>
+            <div class="d-flex flex-row justify-content-between border-bottom">
+            <div class="d-flex d-sm d-flex flex-row">
                 <a href=""><i class="fab fa-facebook fa-lg"></i></a>
                 <a href=""><i class="fab fa-twitter fa-lg"></i></a>
                 <a href=""><i class="fab fa-youtube fa-lg"></i></a>
                 <a href=""><i class="fab fa-instagram fa-lg"></i></a>
                 <a href=""><i class="fas fa-wifi fa-lg"></i> </a>
             </div>
+        </div>
 
         </div>
         <div class="footercountry">
@@ -84,16 +91,16 @@
 
             <a href="">About Us</a>
             <a href=""> Corrections</a>
-            <a href="">Contact Us</a>
+            <a href="">Contact Us </a>
             <a href="">Editorial Guidelines</a>
             <a href="">Advertise</a>
             <a href="">Copyright</a>
             <a href=""> Terms & Conditions</a>
-            <a href="">Privacy Policy </a>
+            <a href="">Privacy Policy</a>
             <a href="">Cookie Policy
-                Terms of Sale</a>
-            <a href="">Archive</a>
-            <a href="">Announcements</a>
+                Terms of Sale  </a>
+            <a href="">Archive </a>
+            <a href="">Announcements </a>
 
         </div>
         <div style="height: 1000px;">
@@ -112,7 +119,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-
+    <script src="scipts/script.js"></script>
 </body>
 
 </html>
