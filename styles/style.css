@@ -131,13 +131,11 @@ footer .fab:hover {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 @media (max-width: 992px) {
   .not-sticky {
     display: none;
   }
 }
-=======
 /*  Media query */
 
 @media (min-width: 768px) {
@@ -145,4 +143,3 @@ footer .fab:hover {
     background-color: white;
   }
 }
->>>>>>> 20f8bacfd14ad9673824365ef8ffc5b2d5815eb1
