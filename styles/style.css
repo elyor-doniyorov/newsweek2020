@@ -1,0 +1,157 @@
+nav {
+  width: 97%;
+  margin: auto;
+  z-index: 5;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav img {
+  width: 430px;
+}
+
+nav .top-nav {
+  background-color: #f72210;
+  color: #fff;
+}
+
+nav .login {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+nav .button {
+  font-weight: bolder;
+  border-radius: 24px;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color:#ffe400;
+}
+
+
+.nav-middle {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px 0;
+}
+
+.nav-middle a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid lightgray;
+  margin: auto;
+  font-weight: bold;
+}
+
+.nav-middle a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.nav-bottom {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav-bottom span {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.nav-bottom a {
+  text-decoration: none;
+  color: #aaa;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.nav-bottom a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+/*  START STYLING*/
+
+.navbar2 {
+  background-color: #f72210;
+  color: #fff;
+  width: 97%;
+  margin: -50px auto;
+  position: sticky;
+  top: 0%;
+}
+
+.navbar2 .login {
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.navbar2 .button {
+  width: 110px;
+  height: auto;
+  font-weight: bolder;
+  border-radius: 24px;
+}
+
+footer {
+  width: 97%;
+  margin:auto;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #343a40;  
+}
+footer .fas, footer .fab {
+  color: #aaa;
+  padding: 12px 12px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+footer .fas:hover , footer .fab:hover  {
+ color:#007bff
+}
+.footercountry {
+  margin: 10px auto;
+  z-index: 5;
+}
+
+.footercountry a {
+  margin: auto;
+  text-decoration: none;
+  padding: 0 10px;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  background-color: #f4f5f6;
+  color: #333;
+}
+
+.copyright {
+  padding-top: 27px;
+  margin-left: 14px;
+}
+
+
+
+
+
+/* END STYLING */
