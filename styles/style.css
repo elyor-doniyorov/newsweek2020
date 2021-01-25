@@ -15,6 +15,28 @@ a {
   color: inherit;
 }
 
+.nav-bottom {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav-bottom span {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.nav-bottom a {
+  text-decoration: none;
+  color: #aaa;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.nav-bottom a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 footer {
   width: 97%;
   margin:auto;
