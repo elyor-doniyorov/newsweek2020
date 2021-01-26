@@ -16,19 +16,19 @@
 <body>
 
     <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top d-lg-flex not-sticky">
+        <nav class="navbar navbar-fixed-top d-none d-sm-block d-lg-flex not-sticky">
             <span class="d-none d-lg-block text-white text-monospace lead">Wed, Jan 20, 2021</span>
             <img class="navbar-brand w-25" src="assets/logo.png" alt="logo ">
-            <div class="d-flex align-items-center justify-content-between"> 
-                <i class="fas fa-portrait text-white d-md-none mr-3"></i>
+            <div class="d-flex align-items-center justify-content-between">
+                <i class="fas fa-portrait text-white d-md-none  mr-3"></i>
                 <a href="#" class="text-white font-weight-bold lead text-monospaced d-none d-md-block mr-3">LOGIN</a>
-                
+
                 <button class="btn bg-warning mr-3" type="button">SUBSCRIBE></button>
-                
-                <span class="fas fa-bars text-white d-lg-none"></span>           
+
+                <span class="fas fa-bars text-white d-lg-none"></span>
             </div>
         </nav>
-    <nav class="navbar bg-light d-none d-lg-flex text-black font-weight-bold mynav2 not-sticky">
+        <nav class="navbar bg-light d-none d-lg-flex text-black font-weight-bold mynav2 not-sticky">
             <a href="#">U.S.</a>
             <a href="#">World</a>
             <a href="#">Business</a>
@@ -45,123 +45,581 @@
                 <i class="fas fa-search"></i>
             </a>
         </nav>
-        
-        <div class="d-flex justify-content-start nav-bottom not-sticky">
-                <span>Trending :</span>
-                <a href="">JOE BIDEN</a>
-                <a href="">DONALD TRUMP</a>
-                <a href="">INAUGURATION</a>
-                <a href="">CORONAVIRUS</a>
-                <a href="">STIMULUS PACKAGE</a>
-                <a href="">VACCINE</a>
-                <a href="">CAPITOL RIOTS</a>
+
+        <div class=" navbar d-flex justify-content-start nav-bottom d-none d-sm-block not-sticky">
+            <span>Trending :</span>
+            <a href="">JOE BIDEN</a>
+            <a href="">DONALD TRUMP</a>
+            <a href="">INAUGURATION</a>
+            <a href="">CORONAVIRUS</a>
+            <a href="">STIMULUS PACKAGE</a>
+            <a href="">VACCINE</a>
+            <a href="">CAPITOL RIOTS</a>
         </div>
-        <div class="row nav-sticky">
-            <div class="col-lg-10 nav-color">
-                <img class="navbar-brand w-25" src="assets/logo.png" alt="logo ">
-            </div>
-            <div class="col-lg-2 d-flex nav-b">
-                <a href="#" class="text-white font-weight-bold lead text-monospaced d-none d-md-block mr-3">LOGIN</a>
-                
-                <button class="btn bg-warning text-black font-weight-bold mr-3" type="button">SUBSCRIBE></button>
-            </div>
+
     </div>
-</div>
 
-   
+    <div class="row nav-sticky d-sm-flex">
+        <div class="col-lg-10 nav-color">
+            <img class="navbar-brand w-25" src="assets/logo.png" alt="logo ">
+        </div>
+        <div class="col-lg-2 d-flex nav-b">
+            <a href="#" class="text-white font-weight-bold lead text-monospaced d-none d-md-block mr-3">LOGIN</a>
 
-     <div class="container-fluid mainbody">
-        <div class="row">
-            <article class="col-md-7 order-md-2 col-lg-5 mt-2 border-bottom border-bottom-md-0">
-                <h6 class="text-headine">TOP STORY</h6>
-                <a href="#">
-                    <img class="w-100" src="assets/joebiden.jpg" alt=" ">
-                    <span class="bg-light font-weight-bolder p-1">WORLD</span>
-                    <h5 class="font-weight-bold">Joe Biden's First Executive Actions Undo Many of Donald Trump's</h5>
-                </a>
-                <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the first
-                    taken as he begins his tenure.</p>
-            </article>
-            <section class="col-md-5 order-md-1 col-lg mt-2 scroll">
-                <h6 class="text-headine">FEATURED STORIES</h6>
-                <article class="headine">
+            <button class="btn bg-warning text-black font-weight-bold mr-3" type="button">SUBSCRIBE></button>
+        </div>
+    </div>
+
+
+ <!--start SECTION BILLO-->
+    <div class="container-fluid mainbody">
+        <div >
+            <div class="row">
+                <article class="col-md-7 order-md-2 col-lg-5 mt-2 border-bottom border-bottom-md-0">
+                    <h6 class="text-muted">TOP STORY</h6>
                     <a href="#">
-                        <img class="w-100" src="assets/donald-trump.webp" alt=" ">
-                        <span class="bg-light font-weight-bolder p-1">U.S.</span>
-                        <h5 class="font-weight-bolder">The pardons included one for Trump’s former campaign manager and
-                            senior adviser Steve Bannon. </h5>
+                        <img class="w-100" src="assets/joebiden.jpg" alt=" ">
+                        <span class="bg-light font-weight-bolder p-1">POLITICS</span>
+                        <h5 class="font-weight-bold">Joe Biden's First Executive Actions Undo Many of Donald Trump's</h5>
                     </a>
-                    <p>Outgoing U.S. President Donald Trump issued pardons to 73 people and commuted the sentences of 70
-                        others, the White House announced early Wednesday, hours before the end of his term. .</p>
+                    <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the first taken as he begins his tenure.</p>
                 </article>
-            </section>
-        </div>
-    </div>
+                <section class="col-md-5 order-md-1 col-lg mt-2 scroll">
+                    <h6 class="text-muted">FEATURED STORIES</h6>
+                    <article>
+                        <a href="#">
+                            <img class="w-100" src="assets/donald-trump.webp" alt=" ">
+                            <span class="bg-light font-weight-bolder p-1">U.S.</span>
+                            <h5 class="font-weight-bolder">The 73 People Pardoned by Donald Trump on His Last Day As President</h5>
+                        </a>
+                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img class="w-100" src="assets/donald-trump.webp" alt=" ">
+                            <span class="bg-light font-weight-bolder p-1">POLITICS</span>
+                            <h5 class="font-weight-bolder">'Donald Trump Can Issue Secret Pardons, but They're Risky</h5>
+                        </a>
+                        <p>Trump chose not to issue pardons for himself of his personal attorney, former New York Mayor Rudy Giuliani.</p>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img class="w-100" src="assets/news1.png" alt=" ">
+                            <span class="bg-light font-weight-bolder p-1">EXPERT</span>
+                            <h5 class="font-weight-bolder">Newsweek Announces Launch of the Newsweek Expert Forum</h5>
+                        </a>
+                        <p>Newsweek Expert Forum creates cohort of thought leaders, pioneering thinkers to share insights, expertise from range of professions, industries.</p>
+                    </article>
+                    <article class="d-md-none">
+                        <a href="#">
+                            <img class="w-100" src="assets/news2.jpg" alt=" tromp">
+                            <span class="bg-light font-weight-bolder p-1">POLITICS</span>
+                            <h5 class="font-weight-bolder"> Can Joe Biden Rescind Donald Trump's Pardons?</h5>
+                        </a>
+                        <p class="text-decoration-none">The president did not issue pardons for himself, his children or for former New York Mayor Rudy Giuliani.</p>
+                    </article>
+                    <article class="d-md-none">
+                        <a href="#">
+                         <img class="w-100" src="assets/joebiden.jpg" alt=" ">
+                         <span class="bg-light font-weight-bolder p-1">U.S.</span>
+                         <h5 class="font-weight-bolder">73 Percent of Repubs, 42 Percent of Dems Feel Okay Voting During Epidemic</h5>
+                        </a>
+                        <p>The results underscore significant differences in how political affiliations affect people's individual attitudes towards COVID-19.</p>
+                    </article>
+                </section>
 
+                <div class="col-md-12 order-md-4 col-lg order-lg-3 d-md-none d-lg-block debate">
+                    <section class="mt-2 pb-3 mb-2">
+                        <a href="#">
+                            <h6 class="text-muted redborder pb-2">THE DEBATE</h6>
+                        </a>
+                        <a href="#">  
+                            <div class="media">
+                                <img src="assets/laddeb.PNG" alt="des" class="mr-3 rounded-circle width60">
+                                <div class="media-body mt-2">
+                                    <h6 class="font-weight-bolder">Media Have Every Right to Cancel Trump</h6>
+                                    <p>BY <strong>NIGEL FARAGE</strong></p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="mt-4 justify-content-center d-flex  doubleborder">
+                            <span class="bg-dark py-1 px-2 text-white rounded-circle mt-n3">vs</span>
+                        </div>
+                        <a href="#">
+                            <div class="media blueborder pt-3 mt-1">
+                                <div class="media-body mt-2">
+                                    <h6 class="font-weight-bolder">After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens</h6>
+                                    <p>BY <strong>MARIANNE WILLIAMSON</strong></p>
+                                </div>
+                                <img src="assets/deb2.png" alt="deb" class="mr-3 rounded-circle width60">
+                            </div>
+                        </a>
+                    </section>
+                    <section class="mt-2">
+                        <h6 class="text-muted pb-2">OPINION</h6>
+                        <div class="media border-bottom">
+                            <a href="#">
+                                <img src="assets/op1.jpg" alt="opinion1" class="mr-3 rounded-circle width60">
+                            </a>                        
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                <h6 class="font-weight-bolder">U.S. Supply Chain: Stop Driving Blind</h6>
+                                </a>                        
+                                <p class="text-black-50">BY <strong>BY FRANK CILLUFFO AND STEWART BAKER</strong></p>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="assets/op2.jpg" alt="op2" class="mr-3 rounded-circle width60">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">After Violence at the Capitol, Congress Must Ensure Election Integrity</h6>
+                                </a>
+                                <p class="text-black-50">BY <strong> BY RICK SCOTT</strong></p>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="assets/op3.jpg" alt="nigel farege" class="mr-3 rounded-circle width60">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Narcissism and Nihilism on Capitol Hill</h6>
+                                </a>    
+                                    <p class="text-black-50">BY <strong>BY PHILIP JEFFERY</strong></p>
+                            </div>
+                           
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="assets/narcism.jpg" alt="nigel farege" class="mr-3 rounded-circle width60">
+                            </a>    
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Narcissism and Nihilism on Capitol Hill</h6>
+                                </a>    
+                                    <p class="text-black-50">BY <strong>BY PHILIP JEFFERY</strong></p>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="assets/exittrup.jpg" alt="narciste" class="mr-3 rounded-circle width60">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Trump's Reasons for Targeting Social Media Are Wrong. But It's Right to Do</h6>
+                                </a>
+                                <p class="text-black-50">BY <strong> ANN OLIVARIUS</strong></p>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="assets/markdev.jpg" alt="by mark" class="mr-3 rounded-circle width60">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Trump Is Right to Take on Big Tech</h6>
+                                </a>
+                                <p class="text-black-50">BY <strong>MARISSA STREIT</strong></p>
+                            </div>
+                        </div>
 
-    
+                        <div class="media border-bottom">
+                            <a href="#">
+                                <img src="assets/european.jpg" alt="europe" class="mr-3 rounded-circle width60">
+                            </a>                        
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                <h6 class="font-weight-bolder">U.S. Supply Chain: Stop Driving Blind</h6>
+                                </a>                        
+                                <p class="text-black-50">BY <strong>BY FRANK CILLUFFO AND STEWART BAKER</strong></p>
+                            </div>
+                        </div>
 
-
-
-    <footer class="footerbb">
-        <div class="d-flex flex-row justify-content-between footer d-sm flex-column">
-            <div class="d-flex flex-row d-sm d-flex flex-column">
-                <h1 class="text-red">NewsWeek</h1>
-                <p class="copyright">© 2021 NEWSWEEK DIGITAL LLC</p>
-            </div>
-
-            <div class="d-flex flex-row justify-content-between border-bottom">
-                <div class="d-flex d-sm d-flex flex-row">
-                    <a href=""><i class="fab fa-facebook fa-lg"></i></a>
-                    <a href=""><i class="fab fa-twitter fa-lg"></i></a>
-                    <a href=""><i class="fab fa-youtube fa-lg"></i></a>
-                    <a href=""><i class="fab fa-instagram fa-lg"></i></a>
-                    <a href=""><i class="fas fa-wifi fa-lg"></i> </a>
+                        
+                    </section>
                 </div>
+            </div> 
+        </div>
+        <div >
+            <div class="row"> 
+                <section class=" col-md-5 col-lg mt-3 pt-3">
+                    <h6 class="d-none">#</h6>
+                    <article class="mb-4 border">
+                        <a href="#">
+                            <img class="w-100" src="" alt=" ">
+                        </a>
+                        <span class="bg-light font-weight-bolder p-1">SPONSORED INSIGHT</span>
+                        <div class="px-3">
+                            <a href="#">
+                                <h5 class="font-weight-bolder">Esper Flipflops and Leaves Troops in DC as Trump Spars With Mattis</h5>
+                            </a>
+                            <p>"We must reject and hold accountable those in office who would make a mockery of our Constitution," General James Mattis wrote Wednesday.</p>
+                        </div>
+                    </article>
+                    <article class="mb-4 border">
+                        <a href="#"><img class="w-100" src="" alt=" "></a>
+                        <span class="bg-light font-weight-bolder p-1">SPONSORED INSIGHT</span>
+                        <div class="px-3">
+                            <a href="#"><h5 class="font-weight-bolder">'Foreign Government' May Be Behind Looting Post on Facebook, Investigation Underway, Police Say</h5></a>
+                            <p>The FBI is holding an investigation to see if the flyer came from inside Rhode Island or was created by a "foreign government," said Colonel James Manni of the Rhode Island State Police on Wednesday.</p>
+                        </div>
+                    </article>
+                    <article class="mb-4 border">
+                        <a href="#"><img class="w-100" src="" alt=" "></a>
+                        <span class="bg-light font-weight-bolder p-1">SPONSORED INSIGHT</span>
+                        <div class="px-3">
+                            <a href="#"><h5 class="font-weight-bolder">George Floyd Died of Heart Attack Complicated by Neck Compression
+                            </h5></a>
+                            <p>In layman's terms, the medical examiner said George Floyd died from a sudden failure in his heart's ability to pump blood to his brain due to the stress put on his body by the arresting officer pressing upon his neck.</p>
+                        </div>
+                    </article>
+                    <article class="mb-4 border d-md-none">
+                        <a href="#"><img class="w-100" src="" alt=" "></a>
+                        <div class="px-3">
+                            <a href="#"><h5 class="font-weight-bolder">President Trump Says 'Something Snapped' in Cops Involved in Floyd Death</h5></a>
+                            <p>"Nothing good comes out of that," President Donald Trump said Wednesday of George Floyd's death. "That was a very bad thing."</p>
+                        </div>
+                    </article>
+                    <article class="mb-4 border d-md-none">
+                        <a href="#"><img class="w-100" src="" alt=" "></a>
+                        <div class="px-3">
+                            <a href="#"><h5 class="font-weight-bolder">73 Percent of Repubs, 42 Percent of Dems Feel Okay Voting During Epidemic</h5></a>
+                            <p>The results underscore significant differences in how political affiliations affect people's individual attitudes towards COVID-19.</p>
+                        </div>
+                    </article>
+                </section>
+
+
+                <div class=" col-md-7 col-lg-5 negativeposition">
+                <div class="row">
+                    <section class="order-md-3 mx-3 mt-2 border-bottom ">
+                        <h6 class="text-muted pb-2 border-bottom">MORE STORIES</h6>            
+                        <div class="media border-bottom pb-3">
+                            <a href="#">
+                                <img src="" alt ="des" class="mr-3 mt-2">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Donald Trump 'Remains Healthy' Despite Elevated Blood Pressure, Obesity</h6>
+                                </a>
+                                <small>President Donald Trump's annual physical found he has elevated blood pressure and meets the classification for obese, but his doctor concluded he's healthy.</small>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pb-3">
+                            <a href="#">
+                                <img src="images/smallimg2.jpg" alt="des" class="mr-3 mt-3">
+                            </a>
+                            <div class="media-body mt-3">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Curfews in Place in the U.S. And the Fines You Could Pay for Violating Them</h6>
+                                </a>
+                                <small>Curfews have been issued in numerous cities across the U.S. including New York City, Atlantic City, Seattle, Birmingham, Denver and Miami.</small>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pb-3">
+                            <a href="#">
+                                <img src="" alt="des" class="mr-3 mt-3">
+                            </a>
+                            <div class="media-body mt-3">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Biden Takes 11-Point Lead Over Trump in New National Poll</h6>
+                                </a>
+                            <small>According to the poll, 52 percent said they lean toward Biden if the election was held today, while 41 percent sided with Trump, giving the former vice president an 11-point lead.</small>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pb-3">
+                            <a href="#">
+                                <img src="images/smallimg4.jpg" alt="des" class="mr-3 mt-3">
+                            </a>
+                            <div class="media-body mt-3">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Trump Holds 1 Point Lead Over Biden in Traditionally Red Texas, Poll Shows</h6>
+                                </a>
+                                <small>Texas voters also indicated that they prefer Trump on the economy and Biden on health care.</small>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pb-3">
+                            <a href="#">
+                                <img src="images/smallimg5.jpg" alt="des" class="mr-3 mt-3">
+                            </a>
+                            <div class="media-body mt-3">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6>
+                                </a>
+                            <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pb-3">
+                            <a href="#">
+                                <img src="images/smallimg6.jpg" alt="des" class="mr-3 mt-3">
+                            </a> 
+                            <div class="media-body mt-3">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Curfews in Place in the U.S. And the Fines You Could Pay for Violating Them</h6>
+                                </a>
+                            <small>Curfews have been issued in numerous cities across the U.S. including New York City, Atlantic City, Seattle, Birmingham, Denver and Miami.</small>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pb-3">
+                            <a href="#"><img src="images/smallimg7.jpg" alt="des" class="mr-3 mt-3"></a>
+                            <div class="media-body mt-3">
+                                <a href="#"><h6 class="font-weight-bolder">Biden Takes 11-Point Lead Over Trump in New National Poll</h6></a>
+                            <small>According to the poll, 52 percent said they lean toward Biden if the election was held today, while 41 percent sided with Trump, giving the former vice president an 11-point lead.</small>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pb-3">
+                            <a href="#"><img src="" alt="des" class="mr-3 mt-3"></a>
+                            <div class="media-body mt-3">
+                                <a href="#"><h6 class="font-weight-bolder">Trump Holds 1 Point Lead Over Biden in Traditionally Red Texas, Poll Shows</h6></a>
+                                <small>Texas voters also indicated that they prefer Trump on the economy and Biden on health care.</small>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pb-3">
+                            <a href="#"><img src="images/smallimg9.jpg" alt="des" class="mr-3 mt-3"></a>
+                            <div class="media-body mt-3">
+                                <a href="#"><h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6></a>
+                                <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
+                            </div>
+                        </div>
+                    <div class="media border-bottom pb-3">
+                            <a href="#"><img src="images/smallimg5.jpg" alt="des" class="mr-3 mt-3"></a>
+                            <div class="media-body mt-3">
+                                <a href="#"><h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6></a>
+                                <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
+                            </div>
+                        </div>
+                    </section>                
+                    <section class="order-md-1 mx-3 mt-2 border-bottom">
+                        <h6 class="text-muted">HEROES OF THE PANDEMIC</h6>
+                        <a href="#">
+                            <div class="row">
+                                <article class="col-md">
+                                    <h2 class="d-none">#</h2>
+                                    <img class="w-100" src="" alt=" ">
+                                    <span class="heroes text-black px-1 font-weight-bold small">PANDEMIC HEROES</span>
+                                    <p class="text-black-50 font-weight-bold">The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</p>
+                                </article>
+                                <article class="col-md">
+                                    <h2 class="d-none">#</h2>
+                                    <img class="w-100" src="" alt=" ">
+                                    <span class="heroes text-black px-1 font-weight-bold small">PANDEMIC HEROES</span>
+                                    <p class="text-black-50 font-weight-bold">The Charity Helping Vulnerable Holocaust Survivors During the Pandemic</p>
+                                </article>
+                                <article class="col-md">
+                                    <h2 class="d-none">#</h2>
+                                    <img class="w-100" src="" alt=" ">
+                                    <span class="heroes text-black px-1 font-weight-bold small">PANDEMIC HEROES</span>
+                                    <p class="text-black-50 font-weight-bold">Women Launch Campaign Urging People to Donate Their Stimulus Checks</p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> 
+
+                    <!-- billo END SECTION -->
+                    <!-- elyor sectart START-->     
+                    <section class="order-md-2 mx-3 mt-2 border-bottom">
+                        <h6 class="text-muted">CULTURE & TRAVEL</h6>
+                        <a href="#">
+                            <div class="row">
+                                <article class="col-md">
+                                    <h2 class="d-none">#</h2>
+                                    <img class="w-100" src="" alt=" ">
+                                    <span class="heroes text-black px-1 font-weight-bold small">GEORGE</span>
+                                    <p class="text-black-50 font-weight-bold">The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</p>
+                                </article>
+                                <article class="col-md">
+                                    <h2 class="d-none">#</h2>
+                                    <img class="w-100" src="" alt=" ">
+                                    <span class="heroes text-black px-1 font-weight-bold small">SAILING</span>
+                                    <p class="text-black-50 font-weight-bold">The Charity Helping Vulnerable Holocaust Survivors During the Pandemic</p>
+                                </article>
+                                <article class="col-md">
+                                    <h2 class="d-none">#</h2>
+                                    <img class="w-100" src="" alt=" ">
+                                    <span class="heroes text-black px-1 font-weight-bold small">TRAVEL</span>
+                                    <p class="text-black-50 font-weight-bold">Women Launch Campaign Urging People to Donate Their Stimulus Checks</p>
+                                </article>
+                            </div>
+                        </a>
+                    </section>
+                </div>
+                </div>
+
+                <div class="col-md-12 d-none d-lg-none d-md-block debate"> 
+                    <section class="mt-2 pb-3 mb-2">
+                        <a href="#">
+                        <h6 class="text-muted redborder pb-2">THE DEBATE</h6>
+                        </a>
+                        <a href="#">  
+                            <div class="media">
+                                <img src="assets/deb1.jpg" alt="dbate" class="mr-3 rounded-circle width60">
+                                <div class="media-body mt-2">
+                                    <h6 class="font-weight-bolder">Media Have Every Right to Cancel Trump</h6>
+                                    <p>BY <strong>BY FROMA HARROP</strong></p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="mt-4 justify-content-center d-flex  doubleborder">
+                            <span class="bg-dark py-1 px-2 text-white rounded-circle mt-n3">vs</span>
+                        </div>
+                        <a href="#">
+                            <div class="media blueborder pt-3 mt-1">
+                                <div class="media-body mt-2">
+                                    <h6 class="font-weight-bolder">Respond to Coronavirus With More Globalism</h6>
+                                    <p>BY <strong>MARIANNE WILLIAMSON</strong></p>
+                                </div>
+                                <img src="" alt="des" class="mr-3 rounded-circle width60">
+                            </div>
+                        </a>
+                    </section>
+                    <section class="mt-2">
+                        <h6 class="text-muted pb-2">OPINION</h6>
+                       
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="" alt="des" class="mr-3 rounded-circle width60">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Trump's Reasons for Targeting Social Media Are Wrong. But It's Right to Do</h6>
+                                </a>
+                                <p class="text-black-50">BY <strong> ANN OLIVARIUS</strong></p>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="" alt="des" class="mr-3 rounded-circle width60">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Trump Is Right to Take on Big Tech</h6>
+                                </a>
+                                <p class="text-black-50">BY <strong>MARISSA STREIT</strong></p>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="" alt="des" class="mr-3 rounded-circle width60">
+                            </a>    
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Domestic Military Use Is Lawful but Not Yet Prudent</h6>
+                                </a>    
+                                    <p class="text-black-50">BY <strong>ROBERT DELAHUNTY</strong></p>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="" alt="des" class="mr-3 rounded-circle width60">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Trump's Reasons for Targeting Social Media Are Wrong. But It's Right to Do</h6>
+                                </a>
+                                <p class="text-black-50">BY <strong> ANN OLIVARIUS</strong></p>
+                            </div>
+                        </div>
+                        <div class="media border-bottom pt-2">
+                            <a href="#">
+                                <img src="" alt="des" class="mr-3 rounded-circle width60">
+                            </a>
+                            <div class="media-body mt-2">
+                                <a href="#">
+                                    <h6 class="font-weight-bolder">Trump Is Right to Take on Big Tech</h6>
+                                </a>
+                                <p class="text-black-50">BY <strong>MARISSA STREIT</strong></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class=" col-md-5 col-lg negativeposition2">         
+                    <article class="mb-4 border mt-5">
+                        <h2 class="d-none">#</h2>
+                        <a href="#">
+                            <img class="w-100" src="" alt=" ">
+                            <span class="bg-light font-weight-bolder p-1">SPONSORED INSIGHT</span>
+                            <div class="px-3">
+                                <h5 class="font-weight-bolder">Esper Flipflops and Leaves Troops in DC as Trump Spars With Mattis</h5>
+                                <p>"We must reject and hold accountable those in office who would make a mockery of our Constitution," General James Mattis wrote Wednesday.</p>
+                            </div>
+                        </a>
+                    </article>
+                   
+
+                    <form action="/action_page.php" class="container mb-5 pb-3">
+                        <label class="font-weight-bold pt-2"><img src="images/favicon.ico" alt=" " class="mr-2 float-left">START YOUR DAY WITH OUR TOP 5 ARTICLES</label>
+                        <div class="form-group" id="signup">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <button type="submit" class="btn red btn-block text-white font-weight-bolder">FREE SIGN UP ></button>
+                    </form>
+                </div>
+
+                     <!--  ELYOR SECTION END-->
+
+
+        <footer class="footerbb">
+            <div class="d-flex flex-row justify-content-between footer d-sm flex-column">
+                <div class="d-flex flex-row d-sm d-flex flex-column">
+                    <h1 class="text-red">NewsWeek</h1>
+                    <p class="copyright">© 2021 NEWSWEEK DIGITAL LLC</p>
+                </div>
+
+                <div class="d-flex flex-row justify-content-between border-bottom">
+                    <div class="d-flex d-sm d-flex flex-row">
+                        <a href=""><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href=""><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href=""><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href=""><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href=""><i class="fas fa-wifi fa-lg"></i> </a>
+                    </div>
+                </div>
+
             </div>
+            <div class="footercountry">
+                <span>Editions:</span>
+                <a href="#">U.S. Edition</a>
+                <a href="">日本</a>
+                <a href="">Pakistan</a>
+                <a href=""> Polska</a>
+                <a href="">România</a>
+            </div>
+            <div class="footercountry">
 
-        </div>
-        <div class="footercountry">
-            <span>Editions:</span>
-            <a href="#">U.S. Edition</a>
-            <a href="">日本</a>
-            <a href="">Pakistan</a>
-            <a href=""> Polska</a>
-            <a href="">România</a>
-        </div>
-        <div class="footercountry">
+                <a href="">About Us</a>
+                <a href=""> Corrections</a>
+                <a href="">Contact Us </a>
+                <a href="">Editorial Guidelines</a>
+                <a href="">Advertise</a>
+                <a href="">Copyright</a>
+                <a href=""> Terms & Conditions</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookie Policy
+                    Terms of Sale </a>
+                <a href="">Archive </a>
+                <a href="">Announcements </a>
 
-            <a href="">About Us</a>
-            <a href=""> Corrections</a>
-            <a href="">Contact Us </a>
-            <a href="">Editorial Guidelines</a>
-            <a href="">Advertise</a>
-            <a href="">Copyright</a>
-            <a href=""> Terms & Conditions</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Cookie Policy
-                Terms of Sale </a>
-            <a href="">Archive </a>
-            <a href="">Announcements </a>
+            </div>
+            <div style="height: 1000px;">
 
-        </div>
-        <div style="height: 1000px;">
+            </div>
+        </footer>
 
-        </div>
-    </footer>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <script src="scipts/script.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <script src="scipts/script.js"></script>
 </body>
 
 </html>

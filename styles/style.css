@@ -137,6 +137,23 @@ footer .fab:hover {
   text-decoration: none;
 }
 
+
+
+
+
+/*  CSSS TEST */
+
+
+
+@media (min-width: 576px) { 
+  .nav-bottom , .nav-sticky{
+    display: none;
+  }
+
+  
+  }
+  
+/*
 @media (max-width: 992px) {
   .not-sticky {
     display: none;
