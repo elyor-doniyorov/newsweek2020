@@ -139,6 +139,10 @@ footer .fab:hover {
   text-decoration: none;
 }
 
+
+
+
+
 @media (max-width: 562px) {
   .nav-b {
     padding-bottom: 15px;
@@ -160,6 +164,7 @@ footer .fab:hover {
     background-color: white;
   }
 }
+
 
 
 
