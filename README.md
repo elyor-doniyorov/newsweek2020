@@ -16,7 +16,7 @@ Clone of the The Next Web website page putting emphasis on how it behaves differ
 ## Live Demo
 
 HEAD TO
-[TNW PROJECT]()
+[TNW PROJECT](https://billodiallo.github.io/newsweek2020/)
 =======
 
 
