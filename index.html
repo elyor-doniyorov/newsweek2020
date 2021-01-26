@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>NewsWeek</title>
@@ -16,54 +15,62 @@
 
 <body>
 
-    <div class="container">
-        <nav class="navbar navbar-fixed-top d-lg-flex mt-md-4">
+    <div class="container-fluid">
+        <nav class="navbar navbar-fixed-top d-lg-flex not-sticky">
             <span class="d-none d-lg-block text-white text-monospace lead">Wed, Jan 20, 2021</span>
             <img class="navbar-brand w-25" src="assets/logo.png" alt="logo ">
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center justify-content-between"> 
                 <i class="fas fa-portrait text-white d-md-none mr-3"></i>
                 <a href="#" class="text-white font-weight-bold lead text-monospaced d-none d-md-block mr-3">LOGIN</a>
-
+                
                 <button class="btn bg-warning mr-3" type="button">SUBSCRIBE></button>
-
-                <span class="fas fa-bars text-white d-lg-none"></span>
+                
+                <span class="fas fa-bars text-white d-lg-none"></span>           
             </div>
         </nav>
-    </div>
-    </div>
-
-    <nav class="navbar bg-light d-none d-lg-flex text-black font-weight-bold mynav2">
-        <a href="#">U.S.</a>
-        <a href="#">World</a>
-        <a href="#">Business</a>
-        <a href="#"> Tech & Science</a>
-        <a href="#">Culture</a>
-        <a href="#">Newsgeek</a>
-        <a href="#">Sports</a>
-        <a href="#">Health</a>
-        <a href="#">The Debate</a>
-        <a href="#">Vantage</a>
-        <a href="#"> Weather</a>
-        <input type="search" placeholder="Search">
-        <a href="#">
-            <i class="fas fa-search"></i>
-        </a>
-
-        <div class="d-flex justify-content-start nav-bottom">
-            <span>Trending :</span>
-            <a href="">JOE BIDEN</a>
-            <a href="">DONALD TRUMP</a>
-            <a href="">INAUGURATION</a>
-            <a href="">CORONAVIRUS</a>
-            <a href="">STIMULUS PACKAGE</a>
-            <a href="">VACCINE</a>
-            <a href="">CAPITOL RIOTS</a>
+    <nav class="navbar bg-light d-none d-lg-flex text-black font-weight-bold mynav2 not-sticky">
+            <a href="#">U.S.</a>
+            <a href="#">World</a>
+            <a href="#">Business</a>
+            <a href="#"> Tech & Science</a>
+            <a href="#">Culture</a>
+            <a href="#">Newsgeek</a>
+            <a href="#">Sports</a>
+            <a href="#">Health</a>
+            <a href="#">The Debate</a>
+            <a href="#">Vantage</a>
+            <a href="#"> Weather</a>
+            <input type="search" placeholder="Search">
+            <a href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </nav>
+        
+        <div class="d-flex justify-content-start nav-bottom not-sticky">
+                <span>Trending :</span>
+                <a href="">JOE BIDEN</a>
+                <a href="">DONALD TRUMP</a>
+                <a href="">INAUGURATION</a>
+                <a href="">CORONAVIRUS</a>
+                <a href="">STIMULUS PACKAGE</a>
+                <a href="">VACCINE</a>
+                <a href="">CAPITOL RIOTS</a>
         </div>
-    </nav>
-
+        <div class="row nav-sticky">
+            <div class="col-lg-10 nav-color">
+                <img class="navbar-brand w-25" src="assets/logo.png" alt="logo ">
+            </div>
+            <div class="col-lg-2 d-flex nav-b">
+                <a href="#" class="text-white font-weight-bold lead text-monospaced d-none d-md-block mr-3">LOGIN</a>
+                
+                <button class="btn bg-warning text-black font-weight-bold mr-3" type="button">SUBSCRIBE></button>
+            </div>
     </div>
+</div>
 
-    <div class="container-fluid mainbody">
+   
+
+     <div class="container-fluid mainbody">
         <div class="row">
             <article class="col-md-7 order-md-2 col-lg-5 mt-2 border-bottom border-bottom-md-0">
                 <h6 class="text-headine">TOP STORY</h6>
@@ -87,13 +94,12 @@
                     <p>Outgoing U.S. President Donald Trump issued pardons to 73 people and commuted the sentences of 70
                         others, the White House announced early Wednesday, hours before the end of his term. .</p>
                 </article>
-                <article>
+            </section>
         </div>
-
-    </div>>
-
-
     </div>
+
+
+    
 
 
 
@@ -143,7 +149,7 @@
 
         </div>
     </footer>
-
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

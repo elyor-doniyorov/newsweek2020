@@ -37,11 +37,11 @@ HEAD TO
 
 ## Authors
 
-👤 **Denis Andrei Diaconu**
+👤 **Elyor Doniyorov**
 
-- GitHub: [@CacheMeGifYouCan](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [Denis Diaconu](https://linkedin.com/linkedinhandle)
+- GitHub: [@EL28DEV](https://github.com/EL28DEV)
+- Twitter: [@elyor](https://twitter.com/elyor)
+- LinkedIn: [Elyor Doniyorov](https://www.linkedin.com/in/elyor-doniyorov)
 
 👤 **Mamadou Billo Diallo**
 
