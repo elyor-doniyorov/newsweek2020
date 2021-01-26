@@ -21,6 +21,7 @@
 }
 
 .nav-color {
+  position: relative;
   color: #f4f5f6;
 }
 
@@ -30,6 +31,7 @@ a {
 }
 
 .mynav2 a {
+  font-weight: bold;
   color: black;
 }
 
@@ -42,8 +44,8 @@ a {
 
 .nav-b {
   margin-top: 3px;
-  width: 110px;
-  height: 40px;
+  width: 100%;
+  height: auto;
   font-weight: bolder;
 }
 
@@ -137,23 +139,15 @@ footer .fab:hover {
   text-decoration: none;
 }
 
-
-
-
-
-/*  CSSS TEST */
-
-
-
-@media (min-width: 576px) { 
-  .nav-bottom , .nav-sticky{
-    display: none;
+@media (max-width: 562px) {
+  .nav-b {
+    padding-bottom: 15px;
+    position: absolute;
+    margin-left: 250px;
+    font-weight: bolder;
   }
+}
 
-  
-  }
-  
-/*
 @media (max-width: 992px) {
   .not-sticky {
     display: none;
@@ -165,4 +159,40 @@ footer .fab:hover {
   .mainbody {
     background-color: white;
   }
+}
+
+
+
+
+ /* Elyor Start Section */
+.form-group {
+  width: 300px;
+  height: 200px;
+}
+
+
+.culture-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.mail-form {
+  width: 220px;
+}
+
+.submit-form {
+  background-color: rgb(240, 55, 55);
+  color: white;
+  width: 220px;
+}
+
+.n-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* more stories */
+.more-pics {
+  width: 70px;
+  height: 70px;
 }
