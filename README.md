@@ -9,6 +9,7 @@ Clone of the The Next Web website page putting emphasis on how it behaves differ
 ## Built With
 
 - HTML5
+- Bootstrap
 - CSS
 - Media querry
 
@@ -16,7 +17,7 @@ Clone of the The Next Web website page putting emphasis on how it behaves differ
 ## Live Demo
 
 HEAD TO
-[TNW PROJECT](https://billodiallo.github.io/newsweek2020/)
+[NEWSWEEK PROJECT](https://billodiallo.github.io/newsweek2020/)
 =======
 
 
@@ -26,6 +27,7 @@ HEAD TO
 ### Prerequisites
 
 -  Knowledge about HTML and CSS
+-  Bootstrap
 -  HTML Semantic elements
 -  CSS flex property
 -- CSS grid property
@@ -57,9 +59,9 @@ HEAD TO
 
 
 To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone```https://github.com/denisdiaconu/TNW-Project.git`` using your terminal or command line.
+- Clone this repository with git clone```https://github.com/billodiallo/newsweek2020.git``` using your terminal or command line.
 - Change to the project directory by entering : <br>
-```cd NYTproject``` in the terminal .
+```cd newsweek2020``` in the terminal .
 
 ## 🤝 Contributing
 
