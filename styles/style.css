@@ -89,6 +89,16 @@ a {
   text-decoration: none;
 }
 
+.container-fluid a {
+  text-decoration: none;
+  color: black;
+}
+
+.block-title a {
+  color: red;
+  font-weight: 800;
+}
+
 .nav-bottom a:hover {
   color: #f72210;
   text-decoration: none;
@@ -117,7 +127,7 @@ footer .fab:hover {
 }
 
 .footercountry {
-  border-top: 1 px solid red;
+  border-top: 1px solid red;
   margin: 5px;
   z-index: 5;
 }
@@ -140,15 +150,13 @@ footer .fab:hover {
 
 html,
 body {
-  
   min-height: 100%;
   margin: 0;
   padding: 0;
 }
-/* 
-TOP PART */
-.col-71 {
 
+/*TOP PART */
+.col-71 {
   width: 71%;
 }
 
@@ -206,10 +214,6 @@ TOP PART */
   position: relative;
 }
 
-.deco::before {
-  top: calc(50% - 2px);
-}
-
 .deco::after {
   content: "";
   display: block;
@@ -230,6 +234,7 @@ TOP PART */
   position: absolute;
   left: 0;
   right: 0;
+  top: calc(50% - 2px);
 }
 
 .c-vs {
@@ -249,14 +254,14 @@ TOP PART */
   align-items: center;
 }
 
+.magazine-image img {
+  width: 100%;
+  min-height: 100%;
+}
+
 .debate-item .image img,
 .opinion .image img {
   width: 63px;
-}
-
-.opinion .flex-sm {
-  border-bottom: 4px solid #d9d9d9;
-  margin-bottom: 10px;
 }
 
 /* IN THE MAGAZINE */
@@ -292,11 +297,6 @@ TOP PART */
 .magazine-image {
   width: 100%;
   max-height: 100%;
-}
-
-.magazine-image img {
-  width: 100%;
-  min-height: 100%;
 }
 
 .guard {
@@ -405,10 +405,6 @@ TOP PART */
   padding-bottom: 10px;
 }
 
-.container-fluid a {
-  text-decoration: none;
-  color: black;
-}
 .feature ul {
   padding-left: 0;
 }
@@ -422,11 +418,11 @@ TOP PART */
   padding: 0 15px;
 }
 
-.container-fluid {
+/* .container-fluid {
   max-width: 1310px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 .f1 {
   display: flex;
@@ -476,13 +472,13 @@ p {
   padding-bottom: 11px;
 }
 
-.block-title a {
-  color: red;
-  font-weight: 800;
-}
-
 .flex-sm {
   display: flex;
+}
+
+.opinion .flex-sm {
+  border-bottom: 4px solid #d9d9d9;
+  margin-bottom: 10px;
 }
 
 .f2 {
@@ -494,6 +490,7 @@ p {
 .heading {
   font-size: 1.1rem;
 }
+
 .subscribe-content {
   margin-bottom: 50px;
 }
@@ -531,6 +528,7 @@ p {
     top: 200px;
     left: 30px;
   }
+
   .info p {
     margin-top: 15px;
   }
@@ -538,6 +536,7 @@ p {
   .img-half {
     height: 170px;
   }
+
   .f2 {
     text-align: center;
   }
@@ -549,6 +548,7 @@ p {
   .form-cont {
     width: 100%;
   }
+
   .button-cont {
     width: 100%;
   }
