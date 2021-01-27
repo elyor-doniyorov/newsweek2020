@@ -1,3 +1,4 @@
+
 .container-fluid {
   max-width: 1310px;
   margin-left: auto;
@@ -10,7 +11,7 @@
   max-width: 1270px;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 4;
 }
 
 .not-sticky {
