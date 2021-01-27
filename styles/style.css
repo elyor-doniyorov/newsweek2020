@@ -184,7 +184,7 @@ body {
 .title {
   padding-bottom: 11px;
   font-size: 18px;
-  color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, 0.4);
   margin-top: 15px;
 }
 
@@ -278,21 +278,23 @@ body {
   width: 30px;
   height: 30px;
 }
+
 .mail-form {
   padding: 5px;
   width: 220px;
 }
+
 .submit-form {
   padding: 5px;
   color: white;
   width: 220px;
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .small-font {
   font-weight: bold;
   font-size: 18px;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 10px;
   position: relative;
   color: black;
