@@ -2,7 +2,7 @@
 .container-fluid {
   max-width: 1310px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .nav-sticky {
@@ -126,15 +126,15 @@ footer .fab:hover {
   color: #007bff;
 }
 
-.footercountry {
+/* .footercountry {
   margin: 5px;
   z-index: 5;
-}
+} */
 
-.copyright {
-  margin-top: 0;
+/* .copyright {
+  margin-top: 20px;
   margin-left: 1px;
-}
+} */
 
 .text-red {
   padding-bottom: 0;
