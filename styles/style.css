@@ -150,11 +150,12 @@ footer .fab:hover {
 } */
 
 .copyright {
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: 1px;
 }
 
 .text-red {
+  margin-top: 0;
   padding-bottom: 0;
   color: red;
   font-weight: bold;
@@ -217,10 +218,10 @@ body {
   margin-right: 15px;
 }
 
-.insight-img {
+/* .insight-img {
   width: 300px;
   height: auto;
-}
+} */
 
 .debate-item {
   padding-top: 10px;
@@ -578,14 +579,6 @@ p {
   .form-group {
     display: flex;
     padding-left: 10px;
-  }
-
-  .form-cont {
-    width: 100%;
-  }
-
-  .button-cont {
-    width: 100%;
   }
 
   .feature2-image {
