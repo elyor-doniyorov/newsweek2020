@@ -32,69 +32,18 @@ a {
   width: 100%;
 }
 
-.nav-bottom a {
-  text-decoration: none;
-  color: #aaa;
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-.footercountry a {
-  margin-right: 5px;
-  text-align: start;
-  text-decoration: none;
-  padding: -5px 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  background-color: #f4f5f6;
-  color: #333;
-}
-
-.footer a {
-  text-decoration: none;
-}
-
 .container-fluid a {
   text-decoration: none;
   color: black;
 }
 
-.block-title a {
-  color: red;
-  font-weight: 800;
-}
-
 .category a {
-  display: block;
-  font: bold 17px/16px "Roboto Condensed", sans-serif;
-  color: #f72210;
-  text-transform: uppercase;
-  padding: 8px 15px 9px;
-  background-color: rgba(255, 255, 255, 0.9);
-  position: absolute;
   bottom: 0;
-  left: 0;
   z-index: 1;
 }
 
-.cat a {
-  font-weight: bold;
-  color: red;
-}
-
-.nav-bottom a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
 footer {
-  width: 97%;
-  margin: auto;
-  border-top: 1px solid #d9d9d9;
-  padding-top: 6px;
-  font-size: 11px;
-  line-height: 15px;
-  color: #343a40;
+  font-size: 12px;
 }
 
 footer .fas,
@@ -123,7 +72,7 @@ body {
 
 .culture-item img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .title {
@@ -164,20 +113,12 @@ body {
 
 .c-vs {
   z-index: 1;
-  width: 32px;
-  height: 32px;
-  background-color: #000;
-  color: #d6d6d6;
-  border-radius: 50%;
-  font: bold 14px/32px "Roboto Condensed", sans-serif;
-  text-align: center;
-  margin: 6px auto;
 }
 
-.magazine-image img {
+/* .magazine-image img {
   width: 100%;
   min-height: 100%;
-}
+} */
 
 .debate-item .image img,
 .opinion .image img {
@@ -352,7 +293,6 @@ p {
 }
 
 .block-title {
-  color: red;
   font-size: 1.4rem;
   padding-bottom: 11px;
 }
