@@ -30,7 +30,7 @@ a {
 .navbar,
 .red {
   margin-left: -15px;
-  width: 1270px; 
+  width: 100%; 
 }
 
 .nav-bottom a {
@@ -119,6 +119,9 @@ html  {
 
 body {
   height: 3000px;
+  /* max-width: 1270px; */
+  margin-left: 100px;
+  /* margin-right: 100%; */
 }
 
 .culture-item img {
