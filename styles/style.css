@@ -2,8 +2,7 @@
 .container-fluid {
   max-width: 1310px;
   overflow-x: hidden;
-  }
-
+}
 
 .nav-sticky {
   max-width: 1270px;
@@ -110,7 +109,7 @@ footer .fab:hover {
   color: #007bff;
 }
 
-html  {
+html {
   min-height: 100%;
   margin: 0;
   padding: 0;
@@ -119,9 +118,7 @@ html  {
 
 body {
   height: 3000px;
-  /* max-width: 1270px; */
-  margin-left: 100px;
-  /* margin-right: 100%; */
+  margin-left: 100px; 
 }
 
 .culture-item img {
