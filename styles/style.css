@@ -21,20 +21,9 @@ svg {
   fill: white;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.navbar,
-.red {
+.navbar {
   margin-left: -15px;
   width: 100%;
-}
-
-.container-fluid a {
-  text-decoration: none;
-  color: black;
 }
 
 .category a {
@@ -44,30 +33,6 @@ a {
 
 footer {
   font-size: 12px;
-}
-
-footer .fas,
-footer .fab {
-  margin: auto;
-  color: #aaa;
-  padding: 4px 4px;
-}
-
-footer .fas:hover,
-footer .fab:hover {
-  color: #007bff;
-}
-
-html {
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(233, 233, 236);
-}
-
-body {
-  height: 3000px;
-  margin-left: 100px;
 }
 
 .culture-item img {
