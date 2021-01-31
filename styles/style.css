@@ -24,10 +24,6 @@
   width: 1410px;
 }
 
-li {
-  list-style: none;
-}
-
 svg {
   fill: white;
 }
@@ -53,7 +49,12 @@ footer {
 .image-float img {
   float: left;
   width: 95px;
-  margin-right: 15px;
+}
+
+.image-float-m img {
+  float: left;
+  width: 95px;
+  height: 100px;
 }
 
 .deco::after {
@@ -104,16 +105,14 @@ footer {
   height: auto;
 }
 
+.bigger {
+  width: 600px;
+}
+
 .bottom-part h5,
 .top-part h5,
 .magazine-category {
   font-size: 1.3rem;
-}
-
-@media (max-width: 767.99px) {
-  .upper-part {
-    flex-direction: column;
-  }
 }
 
 /* Editors Pick */
