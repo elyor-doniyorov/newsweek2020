@@ -137,9 +137,9 @@ footer {
   height: 300px;
 }
 
-.feature2-image {
-  width: 110px;
-  height: 110px;
+.feature .feature2-image {
+  width: 100px;
+  height: 100px;
 }
 
 .col-1 {
