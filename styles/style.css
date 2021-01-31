@@ -3,6 +3,7 @@ body,
 main {
   overflow-x: hidden;
 }
+
 .container-fluid {
   max-width: 1310px;
   overflow-x: hidden;
