@@ -1,4 +1,8 @@
-
+html,
+body,
+main {
+  overflow-x: hidden;
+}
 .container-fluid {
   max-width: 1310px;
   overflow-x: hidden;
@@ -190,7 +194,7 @@ p {
   }
 
   .info h3 {
-    position: absolute;
+    /* position: absolute; */
     top: 200px;
     left: 30px;
   }
