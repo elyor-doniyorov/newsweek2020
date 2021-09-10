@@ -41,9 +41,9 @@ HEAD TO
 
 👤 **Elyor Doniyorov**
 
-- GitHub: [@EL28DEV](https://github.com/EL28DEV)
-- Twitter: [@elyor](https://twitter.com/elyor)
-- LinkedIn: [Elyor Doniyorov](https://www.linkedin.com/in/elyor-doniyorov)
+- GitHub: [@Elyor Doniyorov](https://github.com/elyor-doniyorov)
+- Twitter: [@Elyor Doniyorov](https://twitter.com/elyor-doniyorov)
+- LinkedIn: [@Elyor Doniyorov](https://www.linkedin.com/in/elyor-doniyorov)
 
 👤 **Mamadou Billo Diallo**
 
