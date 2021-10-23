@@ -2,9 +2,7 @@
 
 # NEWSWEEK Clone Project
 
-
-
-Clone of the The Next Web website page putting emphasis on how it behaves differently depending on the size of the screen.
+The Next Web clone page putting emphasis on how it behaves differently depending on the size of the screen.
 
 ## Built With
 
@@ -21,20 +19,13 @@ HEAD TO
 =======
 
 
-
-
-
 ### Prerequisites
 
--  Knowledge about HTML and CSS
--  Bootstrap
--  HTML Semantic elements
--  CSS flex property
--- CSS grid property
--  Media querry
-
-
-
+-  Bootstrap;
+-  HTML Semantic elements;
+-  CSS flex;
+-- CSS grid;
+-  Media querry;
 
 
 ## Authors
