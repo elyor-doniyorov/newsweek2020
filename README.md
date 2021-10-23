@@ -14,8 +14,7 @@ The Next Web clone page putting emphasis on how it behaves differently depending
 
 ## Live Demo
 
-HEAD TO
-[NEWSWEEK PROJECT](https://billodiallo.github.io/newsweek2020/)
+[NEWSWEEK](https://rawcdn.githack.com/elyor-doniyorov/newsweek2020/9a17beeb11bb82489243d6449fa95686b79e74f2/index.html)
 =======
 
 
@@ -24,7 +23,7 @@ HEAD TO
 -  Bootstrap;
 -  HTML Semantic elements;
 -  CSS flex;
--- CSS grid;
+-  CSS grid;
 -  Media querry;
 
 
@@ -50,7 +49,7 @@ HEAD TO
 
 
 To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone```https://github.com/billodiallo/newsweek2020.git``` using your terminal or command line.
+- Clone this repository with git clone```https://github.com/elyor-doniyorov/newsweek2020.git``` using your terminal or command line.
 - Change to the project directory by entering : <br>
 ```cd newsweek2020``` in the terminal .
 
