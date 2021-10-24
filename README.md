@@ -14,7 +14,7 @@ The Next Web clone page putting emphasis on how it behaves differently depending
 
 ## Live Demo
 
-[NEWSWEEK](https://rawcdn.githack.com/elyor-doniyorov/newsweek2020/9a17beeb11bb82489243d6449fa95686b79e74f2/index.html)
+[Newsweek](https://rawcdn.githack.com/elyor-doniyorov/newsweek2020/9a17beeb11bb82489243d6449fa95686b79e74f2/index.html)
 =======
 
 
